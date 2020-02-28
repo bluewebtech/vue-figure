@@ -1,6 +1,6 @@
 # vue-figure
 
-Figure is foundational structure for the Vue.js framework that is based on the Vue CLI tool.
+Figure is a foundational structure for the Vue.js framework that is based on the Vue CLI tool.
 
 Essentially, this is how I personally prefer to set up all of my Vue.js projects.
 
