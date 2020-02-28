@@ -1,15 +1,21 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+/**
+ * Modules
+ */
+import Vue from 'vue';
+import Vuex from 'vuex';
+import VuexORM from '@vuex-orm/core';
+import Database from './database';
 
-Vue.use(Vuex)
+/**
+ * Module Registry
+ */
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+  state: {},
+  getters: {},
+  mutations: {},
+  actions: {},
+  modules: {},
+  plugins: [VuexORM.install(Database)],
+});
